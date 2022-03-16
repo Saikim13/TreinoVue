@@ -1,6 +1,6 @@
 <template>
     <v-container>
-        <h2 class="text-h6 text-center mt-5">Brasileirão Série A</h2>
+        <h2 class="text-h6 text-center">Brasileirão Série A</h2>
 
         <v-img
             class="inicio-imagem mg-4"
