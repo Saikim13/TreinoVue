@@ -1,5 +1,10 @@
 <template>
-    <v-container></v-container>
+    <v-container>
+        <h2 class="text-h6 text-center">
+            Classificação
+        </h2>
+        
+    </v-container>
 </template>
 
 <script>
