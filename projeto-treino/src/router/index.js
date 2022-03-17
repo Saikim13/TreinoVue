@@ -2,6 +2,11 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import MeuInicio from '../views/MeuInicio.vue'
 import ClubesLista from '../views/ClubesLista.vue'
+import CadastrarTime from '../views/CadastrarTime.vue'
+import SobreMim from '../views/SobreMim.vue'
+import FormularioView from '../views/FormularioView.vue'
+import FormularioEnviado from '../views/FormularioEnviado.vue'
+import LoginUser from '../views/LoginUser.vue'
 
 Vue.use(VueRouter)
 
@@ -15,7 +20,32 @@ const routes = [
   path: '/classificacao',
   name: 'ClubesLista',
   component: ClubesLista
-  }  
+  },
+  {
+    path: '/cadastro',
+    name: 'CadastrarTime',
+    component: CadastrarTime
+  },
+  {
+    path: '/sobre',
+    name: 'SobreMim',
+    component: SobreMim
+  },
+  {
+    path: '/form',
+    name: 'FormularioView',
+    component: FormularioView
+  },
+  {
+    path: '/enviado',
+    name: 'FormularioEnviado',
+    component: FormularioEnviado
+  },
+  {
+    path: '/login',
+    name: 'LoginUser',
+    component: LoginUser
+  }            
 ]
 
 const router = new VueRouter({
