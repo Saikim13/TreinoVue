@@ -1,5 +1,8 @@
 <template>
     <v-container>
+        <h2 class="text-h6 text-center">
+            Sugestões
+        </h2> 
         <v-form
             ref="form"
             v-model="valid"

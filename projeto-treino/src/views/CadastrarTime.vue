@@ -12,7 +12,7 @@
         </v-form>  
         
         <div class="botoes">
-            <router-link to="/login">
+            <router-link to="/user">
                 <v-btn
                     class="botaoCadastrar"
                     color="green"

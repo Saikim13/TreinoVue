@@ -44,6 +44,15 @@
                         </v-list-item>
                     </router-link>
 
+                    <router-link to="/login">
+                        <v-list-item>
+                            <v-list-item-icon>
+                                <v-icon>mdi-login</v-icon>
+                            </v-list-item-icon>
+                            <v-list-item-title>Login</v-list-item-title>
+                        </v-list-item>
+                    </router-link>
+
                     <router-link to="/cadastro">
                         <v-list-item>
                             <v-list-item-icon>

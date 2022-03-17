@@ -7,6 +7,7 @@ import SobreMim from '../views/SobreMim.vue'
 import FormularioView from '../views/FormularioView.vue'
 import FormularioEnviado from '../views/FormularioEnviado.vue'
 import LoginUser from '../views/LoginUser.vue'
+import PaginaUsuario from '../views/PaginaUsuario.vue'
 
 Vue.use(VueRouter)
 
@@ -45,7 +46,12 @@ const routes = [
     path: '/login',
     name: 'LoginUser',
     component: LoginUser
-  }            
+  },
+  {
+    path: '/user',
+    name: 'PaginaUsuario',
+    component: PaginaUsuario
+  }               
 ]
 
 const router = new VueRouter({
